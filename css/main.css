@@ -1,0 +1,221 @@
+/* roboto-regular - latin */
+@font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-regular.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-regular.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+  /* roboto-700 - latin */
+  @font-face {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 700;
+    src: local(''),
+         url('../fonts/roboto-v30-latin-700.woff2') format('woff2'), /* Chrome 26+, Opera 23+, Firefox 39+ */
+         url('../fonts/roboto-v30-latin-700.woff') format('woff'); /* Chrome 6+, Firefox 3.6+, IE 9+, Safari 5.1+ */
+  }
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+body{
+    font-family: "Roborto" , sans-serif;
+background:  #F5F3F4;
+}
+.container{
+    width: 1350px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+.site-header{
+    padding: 20px 0px;
+}
+.header-box{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    
+}
+li + li{
+    margin-left: 48px;
+}
+.header-list{
+    list-style: none;
+    display: flex;
+
+}
+.hero-section{
+    padding: 52px 0px 176px;
+}
+.header-list-top{
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: rgba(18, 16, 12, 0.7);
+text-decoration: none;
+}
+.header-link-top{
+    text-decoration: none;
+    padding: 6px 23px;
+    background: #12100C;
+    border-radius: 12px;
+    font-family: 'Roboto';
+font-style: normal;
+font-weight: 400;
+font-size: 14px;
+line-height: 20px;
+color: #F9F9F9;
+}
+.hero{
+    padding: 0 25px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.hero-content{
+    width: 583px;
+}
+.hero-title{
+    margin-bottom: 38px;
+    font-weight: 700;
+    font-size: 80px;
+    line-height: 88px;
+    color: #12100C;
+    
+}
+.hero-subtext-wrapper{
+    display: flex;
+}
+.hero-text-wrapper{
+    margin-bottom: 48px;
+    width: 460px;
+
+}
+.hero-text{
+    font-weight: 400;
+font-size: 23px;
+line-height: 32px;
+color: rgba(18, 16, 12, 0.7);
+}
+.hero-bottom-links{
+    display: flex;
+    
+}
+.hero-subtext-wrapper{
+width: 187px ;
+margin-left: 24px;
+}
+.hero-try-link{
+    display: inline-block;
+    margin-bottom: 18px;
+    padding: 11px 46px;
+    font-weight: 700;
+    font-size: 18px;
+    line-height: 22px;
+    text-align: center;
+    text-decoration: none;
+    color:  #12100C;
+    background: #FFAE33;
+    box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+    border-radius: 16px;
+}
+.hero-try_text{
+    font-weight: 400;
+font-size: 16px;
+line-height: 24px;
+color: rgba(18, 16, 12, 0.7);
+
+}
+.hero-social-links + .hero-social-links{
+margin-left: 29px;
+}
+.select-title{
+    margin-bottom: 339px ;
+    font-weight: 700;
+font-size: 54px;
+line-height: 64px;
+text-align: center;
+color: #12100C;
+}
+.select-span{
+    font-weight: 400;
+font-size: 54px;
+line-height: 64px;
+text-align: center;
+text-decoration-line: line-through;
+color: #999795;
+}
+.site-box-middle{
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.box-right{
+    display: flex;
+    align-items: center;
+    justify-content: end ;
+}
+.select-box-left{
+    margin-bottom: 0px;
+    margin-right: 73px;
+}
+.box-left-title{
+    margin: 0 auto;
+    padding: 8px 0px;
+    font-weight: 700;
+font-size: 32px;
+line-height: 40px;
+color: #12100C;
+}
+.box-left-text{
+    margin-bottom: 158px;
+    font-weight: 400;
+font-size: 24px;
+line-height: 32px;
+color: rgba(18, 16, 12, 0.7);
+}
+.select-box-link1{
+    padding: 9px 24px;
+    background: #FFAE33;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+border-radius: 10.5px;
+    font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-decoration: none;
+text-align: center;
+color: #12100C;
+}
+.select-box-link2{
+    padding: 9px 24px;
+    background: #FFB0AE;
+box-shadow: 0px 1px 1px rgba(0, 0, 0, 0.1);
+border-radius: 10.5px;
+    font-weight: 700;
+font-size: 14px;
+line-height: 16px;
+text-decoration: none;
+text-align: center;
+color: #12100C;
+}
+.box-right:hover{
+    background-color: #FFAE33;
+    box-shadow: hotpink;
+}
+.select-box-link1:hover{
+    background-color: rgb(250, 86, 86);
+    transition: 2s;
+    box-shadow: 0px 0px 5px 7px darkorange;
+}
+.select-box-link2:hover{
+    background-color: rgb(105, 250, 86);
+    transition: 2s;
+    box-shadow: 0px 0px 5px 7px rgb(74, 62, 243);
+}
